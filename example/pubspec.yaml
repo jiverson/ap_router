@@ -1,0 +1,28 @@
+name: ap_router_example
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  adaptive_navigation: ^0.0.4
+  ap_router:
+    path: ../
+  collection: ^1.15.0
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  path_to_regexp: ^0.4.0
+  quiver: ^3.0.1+1
+  url_launcher: ^6.0.12
+  url_strategy: ^0.2.0
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
